@@ -21,6 +21,7 @@ module FormsLab
        end 
       
       redirect to "/pirates/#{pirate.id}"
+      
     #   pirate = params[:pirate]
     #   @pirate = Pirate.new(pirate[:name], pirate[:weight], pirate[:height])
     #   params[:pirate][:ships].each do |ship| 
