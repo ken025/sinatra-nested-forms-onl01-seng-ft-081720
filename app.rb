@@ -17,6 +17,8 @@ module FormsLab
        params[:pirate][:ships].each do |ship_data| 
          ship = Ship.new(ship_data)
          ship.pirate = pirate
+         ship.save
+       end 
       
     #   pirate = params[:pirate]
     #   @pirate = Pirate.new(pirate[:name], pirate[:weight], pirate[:height])
